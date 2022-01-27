@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goToOrange(_ sender: UIButton) {
+        
+        // present with storyboard ID
+        guard let orangeVC = storyboard?.instantiateViewController(withIdentifier: "orangeVC") else { return }
+        orangeVC.modalTransitionStyle = .crossDissolve
+        orangeVC.modalPresentationStyle = .fullScreen
+        present(orangeVC, animated: true, completion: nil)
+    }
+    
 }
 

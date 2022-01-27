@@ -13,6 +13,7 @@
 		D752E93627A2C8460096E0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D752E93427A2C8460096E0B9 /* Main.storyboard */; };
 		D752E93827A2C8460096E0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D752E93727A2C8460096E0B9 /* Assets.xcassets */; };
 		D752E93B27A2C8460096E0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D752E93927A2C8460096E0B9 /* LaunchScreen.storyboard */; };
+		D752E94327A2CC240096E0B9 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752E94227A2CC240096E0B9 /* OrangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D752E93727A2C8460096E0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D752E93A27A2C8460096E0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D752E93C27A2C8460096E0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D752E94227A2CC240096E0B9 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D752E92E27A2C8460096E0B9 /* AppDelegate.swift */,
 				D752E93027A2C8460096E0B9 /* SceneDelegate.swift */,
 				D752E93227A2C8460096E0B9 /* ViewController.swift */,
+				D752E94227A2CC240096E0B9 /* OrangeViewController.swift */,
 				D752E93427A2C8460096E0B9 /* Main.storyboard */,
 				D752E93727A2C8460096E0B9 /* Assets.xcassets */,
 				D752E93927A2C8460096E0B9 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D752E94327A2CC240096E0B9 /* OrangeViewController.swift in Sources */,
 				D752E93327A2C8460096E0B9 /* ViewController.swift in Sources */,
 				D752E92F27A2C8460096E0B9 /* AppDelegate.swift in Sources */,
 				D752E93127A2C8460096E0B9 /* SceneDelegate.swift in Sources */,
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
